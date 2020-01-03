@@ -4,6 +4,8 @@ from .serializers import *
 from django.db.models import Q
 from rest_framework.filters import SearchFilter, OrderingFilter
 
+'''views for api'''
+
 
 class RestaurantListApiView(ListAPIView):
     queryset = Restaurant.objects.all()

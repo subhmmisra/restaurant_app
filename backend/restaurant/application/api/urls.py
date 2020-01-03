@@ -5,7 +5,7 @@ from django.conf import settings
 
 from .views import *
 
-
+'''urls for api'''
 urlpatterns = [
     path('', RestaurantListApiView.as_view(), name='list'),
     path('<pk>', RestaurantDetailView.as_view()),

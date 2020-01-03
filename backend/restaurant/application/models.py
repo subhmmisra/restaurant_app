@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Restaurant(models.Model):
     res_id = models.IntegerField(null=True, blank=True)

@@ -24,4 +24,4 @@ class RestaurantResource(resources.ModelResource):
         model = Restaurant
         exclude = ('id', )
         import_id_fields = []
-        fields = ('')
+        fields = (' ')
